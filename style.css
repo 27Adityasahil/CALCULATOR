@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    background-color: rgb(149, 247, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.container{
+    background: url(https://png.pngtree.com/thumb_back/fh260/background/20211031/pngtree-abstract-bg-image_914283.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 100vh;
+}
+.calculator{
+    background-color: rgb(41, 92, 86);
+    padding: 10px;
+    border-radius: 8%;
+}
+.calculator form input{
+    bottom: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 20px;
+    color:#fff;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: -3px -4px 12px rgba(255, 255, 255), 10px 10px 15px rgba(125, 10, 250, 0.2);
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 0;
+}
+form .display input{
+    text-align: right;
+    flex:1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form .display #display{
+    border-radius: 10px;
+    background-color: rgb(250, 212, 60);
+    color: black;
+}
+form input.equal{
+    width: 145px;
+    border-radius: 35%;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(250, 212, 60);
+}
+form input.color{
+    background-color: rgb(250, 212, 60);
+    color: black;
+    font-weight: bold;
+}
